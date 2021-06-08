@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="remember"
+        android:summary="Indique si la sauvegarde des identifiants est active par défaut"
+        android:title="Sauver Préférences" />
+    <PreferenceCategory
+        android:key="preferences"
+        android:summary="Saisie des identifiants utilisateur"
+        android:title="Préférences">
+        <EditTextPreference
+            android:defaultValue=''
+            android:key="login"
+            android:title="Login" />
+        <EditTextPreference
+            android:defaultValue='http://tomnab.fr/todo-api/'
+            android:key="URL API"
+            android:title="URL API" />
+    </PreferenceCategory>
+</PreferenceScreen>

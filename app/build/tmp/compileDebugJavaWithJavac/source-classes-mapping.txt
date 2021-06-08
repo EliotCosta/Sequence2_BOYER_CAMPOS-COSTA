@@ -1,0 +1,2 @@
+com/ec/todolist1/BuildConfig.java
+ com.ec.todolist1.BuildConfig
